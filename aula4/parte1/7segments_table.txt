@@ -1,4 +1,4 @@
-DIGITS	|	   BINARY    |   HEXADECIMAL
+DIGITS  |	   BINARY    |   HEXADECIMAL
 0      	|   011 1111   |      0x3F  
 1       |   000 0110   |      0x06  
 2      	|   101 1011   |      0x5B  
