@@ -9,7 +9,10 @@ test_hardware
 detpic32.h
 
 #VIM
-.un~
-.swp
-.swo
-.[a-z]~
+*.un~
+*.swp
+*.swo
+.[a-z]*~
+*.[a-z]*~
+.*.[a-z]*~
+*.*.[a-z]*~
