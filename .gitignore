@@ -1,0 +1,15 @@
+#PCOMPILE FILES
+*.elf
+*.hex
+*.map
+*.o
+
+#NOT NECESSARY FOLDERS/FILES
+test_hardware
+detpic32.h
+
+#VIM
+.un~
+.swp
+.swo
+.[a-z]~
