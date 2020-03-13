@@ -14,12 +14,12 @@ Exercícios dos guiões da cadeira de Arquitetura de Computadores 2
 - [prog2.s](aula2/prog2.s)
 - [prog3.s](aula2/prog3.s)
 - [delay.s](aula2/delay.s)
-- [AC2-P-TP02.pdf](/aula1/AC2-P-TP02.pdf)
+- [AC2-P-TP02.pdf](/aula2/AC2-P-TP02.pdf)
 
 ### [aula3](/aula3)
 - [**parte1**](/aula3/parte1)
-  - [prog3.s](aula3/prog3.s)
-  - [prog4.s](aula3/prog4.s)
+  - [prog3.s](aula3/parte1/prog3.s)
+  - [prog4.s](aula3/parte1/prog4.s)
 - [AC2-P-TP03.pdf](/aula3/AC2-P-TP03.pdf)
 
 ### [aula4](/aula4)
