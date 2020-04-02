@@ -16,3 +16,6 @@ detpic32.h
 *.[a-z]*~
 .*.[a-z]*~
 *.*.[a-z]*~
+
+#VSCODE
+.vscode
