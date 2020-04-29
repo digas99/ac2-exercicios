@@ -67,3 +67,5 @@ Exercícios dos guiões da cadeira de Arquitetura de Computadores 2
   - [prog4.c](aula7/parte1/prog4.c)
   - [prog5.c](aula7/parte1/prog5.c)
   - [prog6.c](aula7/parte1/prog6.c)
+- [AC2-P-TP07.pdf](/aula7/AC2-P-TP07.pdf)
+
