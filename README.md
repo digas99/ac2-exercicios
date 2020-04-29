@@ -49,4 +49,13 @@ Exercícios dos guiões da cadeira de Arquitetura de Computadores 2
 - [prog4.c](aula5/prog4.c)
 - [prog5.c](aula5/prog5.c)
 - [prog6.c](aula5/prog6.c)
-- [AC2-P-TP05.pdf](/aula5/AC2-P-TP05.pdf)
+- [ac2-p-tp05.pdf](/aula5/ac2-p-tp05.pdf)
+
+### [aula6](/aula6)
+- [**parte1**](/aula6/parte1)
+  - [prog1.c](aula6/parte1/prog1.c)
+  - [prog2.c](aula6/parte1/prog2.c)
+- [**parte2**](/aula6/parte2)
+  - [prog1.c](aula6/parte2/prog1.c)
+- [ac2-p-tp06.pdf](/aula6/ac2-p-tp06.pdf)
+
