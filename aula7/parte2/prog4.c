@@ -3,6 +3,7 @@
 #include "functions.h"
 
 volatile unsigned char voltage = 0;
+void setPWM(unsigned int );
 
 int main(void) {
     // config A/D
@@ -43,6 +44,9 @@ int main(void) {
                  // PR3 = (5000*10^3/100)Hz - 1 = 49999
     TMR3 = 0;
     T3CONbits.TON = 1;
+    OC1CONbits.OCM = 6; // PWM mode on OCx; fault pin disabled
+    OC1CONbits.OCTSEL = 1; // Use timer T3 as the time base for PWM generation
+    OC1CONbits.ON = 1; // Enable OC1 module
 
     // config timer T3 for interruptions
     IPC3bits.T3IP = 2;
@@ -56,15 +60,30 @@ int main(void) {
     TRISBbits.TRISB1 = 1; // 
 
     while(1) {
-        if ((PORTB & 0x0003) == 1) {
-            IEC0bits.T1IE = 0; // Disable timer T1 interrupts
-        }
-        else {
-            IEC0bits.T1IE = 1; // Enable timer T1 interrupts
+        int portVal = PORTB & 0x0003;
+        switch(portVal) {
+            case 0: // Measure input voltage
+                IEC0bits.T1IE = 1; // Enable timer T1 interrupts
+                setPWM(0);
+                break;
+            case 1: // Freeze
+                IEC0bits.T1IE = 0; // Disable timer T1 interrupts
+                setPWM(100);
+                break;
+            default:
+                IEC0bits.T1IE = 1; // Enable timer T1 interrupts
+                setPWM(voltage*3);
+                break;
         }
     }
 
     return 0;
+}
+
+void setPWM(unsigned int dutyCycle) {
+    if (dutyCycle >= 0 && dutyCycle <= 100) {
+        OC1RS = ((PR3 + 1)*dutyCycle)/100;
+    }
 }
 
 // Interrupt Handlers
