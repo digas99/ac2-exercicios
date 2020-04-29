@@ -1,6 +1,6 @@
 #include <detpic32.h>
 
-void send2displays(unsigned char value, int virgula) {
+void send2displays(unsigned char value, int comma) {
    static const char display7Scodes[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
    unsigned char disp_low = value & 0x0F;
    unsigned char disp_high = value >> 4;
@@ -17,7 +17,7 @@ void send2displays(unsigned char value, int virgula) {
       LATDbits.LATD6 = 1; //
       LATB = LATB & 0x00FF; // resetar os valores do RB8-RB15 (LATB & 0000 0000 1111 1111)
       LATB = LATB | (display7Scodes[disp_high] << 8);
-      if (virgula)
+      if (comma)
 			LATB = LATB | 0x8000;
    }
 	

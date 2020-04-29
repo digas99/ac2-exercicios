@@ -14,7 +14,7 @@ int main(void) {
 
     TRISEbits.TRISE0 = 0; // config RE0 as output
 
-    // Start A/D convertion
+    AD1CON1bits.ASAM = 1; // start convertion
     while(1) {
         /* ALL ACTIVITY IS DONE BY THE ISR */
     }
@@ -23,16 +23,25 @@ int main(void) {
 }
 
 volatile int adc_value;
+volatile int rdTime;
 
 // Interrupt Handler
 void _int_(27) isr_adc(void) { // 27 is the vector number of A/D ()
                                   // "PIC32 family datasheet" (pages 74-76)
     // ISR actions
+    rdTime = readCoreTimer();
+    printStr("\nTempo de latência = ");
+    printInt10(rdTime*50-3600); // valor do tempo de conversão é 3600ns
+                                // (calculado anteriormente)
+    printStr("ns");
+
     LATEbits.LATE0 = 0; // deactivate RE0
 
     adc_value = ADC1BUF0;
 
     LATEbits.LATE0 = 1; // activate RE0
+
+    resetCoreTimer();
 
     AD1CON1bits.ASAM = 1; // start convertion
     IFS1bits.AD1IF = 0; // manual reset of AD1IF flag

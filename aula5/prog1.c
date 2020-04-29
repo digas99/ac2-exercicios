@@ -1,5 +1,6 @@
 #include <detpic32.h>
 #include "adconfig.h"
+#include "functions.h"
 
 int main(void) {
     // // configuração do ADC
@@ -21,17 +22,27 @@ int main(void) {
 
     adconfig(4, 4, 1, 16);
 
+    int rdTime;
     while(1) {
+
+        resetCoreTimer();
+
         // start convertion
         AD1CON1bits.ASAM = 1;
 
         // esperar até que a conversão termine (o bit AD1IF ficará a 1)
         while(IFS1bits.AD1IF == 0);
 
+        rdTime = readCoreTimer();
+        printStr("\nTempo de conversão = ");
+        printInt10(rdTime*50);
+        printStr("ns - ");
         printInt(ADC1BUF0, 16 | 3 << 16); // print do valor em hexadecimal,
                                           // formatado com 3 digitos
 
         IFS1bits.AD1IF = 0; // reset manual do valor do bit AD1IF
+
+        delay(500);
     }
 
     return 0;

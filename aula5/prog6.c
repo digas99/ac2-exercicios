@@ -20,13 +20,12 @@ int main(void) {
     while(1) {
         int voltage, sum=0;
 
-        delay(10); // refresh frequency
-
-        // na falta de um osciloscópio
-        resetCoreTimer();      
+        delay(10); // refresh frequency     
 
         if (++i == 25) {  
-    
+            // na falta de um osciloscópio
+            resetCoreTimer(); 
+
             // start convertion
             AD1CON1bits.ASAM = 1;
 
