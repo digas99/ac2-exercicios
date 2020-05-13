@@ -125,7 +125,7 @@ void UART1config(int baudrate, char parity, int stop_bits) {
     U1STAbits.URXEN = 1;
     //RX interrupt enabled
     IPC6bits.U1IP = 2;		// configure priority of interrupts
-	IEC0bits.U1RXIE = 1;	// enable interrupts
+    IEC0bits.U1RXIE = 1;	// enable interrupts
     IEC0bits.U1EIE = 1;		// enable interrupts (error)
     U1MODEbits.ON = 1;
 }
