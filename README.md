@@ -82,5 +82,9 @@ Exercícios dos guiões da cadeira de Arquitetura de Computadores 2
   - [prog5.c](aula8/parte1/prog5.c)
   - [prog6.c](aula8/parte1/prog6.c)
   - [prog9.c](aula8/parte1/prog9.c)
+- [**parte2**](/aula8/parte)
+  - [prog1.c](aula8/parte2/prog1.c)
+  - [prog2.c](aula8/parte2/prog2.c)
+  - [prog3.c](aula8/parte2/prog3.c)
 - [AC2-P-TP08.pdf](/aula8/AC2-P-TP08.pdf)
 
