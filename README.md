@@ -90,3 +90,4 @@ Exercícios dos guiões da cadeira de Arquitetura de Computadores 2
 
 ### [aula9](/aula9)
 - [parte1.c](/aula9/parte1.c)
+- [AC2-P-TP09.pdf](/aula9/AC2-P-TP09.pdf)
