@@ -54,10 +54,10 @@ Todos os exercícios foram resolvidos em 2021/22.
 - [**parte2**](/aula10/parte2) - [EX1](aula10/parte2/EX1)
 - [**parte3**](/aula10/parte3) - [EX1](aula10/parte3/EX1)
 - [**extra**](/aula10/EXTRA) - [EX1](aula10/EXTRA/EX1)
-- [AC2-P-Aula010.pdf](/aula10/AC2-P-Aula010.pdf)
+- [AC2-P-Aula010.pdf](/aula10/AC2-P-Aula10.pdf)
 
 ### [aula11](/aula11)
-- [AC2-P-Aula011.pdf](/aula11/AC2-P-Aula011.pdf)
+- [AC2-P-Aula011.pdf](/aula11/AC2-P-Aula11.pdf)
 
 ### [extra](/extra)
 - [AC2_exerc_P-1_6.pdf](/extra/AC2_exerc_P-1_6.pdf)
