@@ -1,0 +1,30 @@
+GAS LISTING prog2.s 			page 1
+
+
+DEFINED SYMBOLS
+             prog2.s:1      *ABS*:0000000000000014 SIZE
+             prog2.s:2      *ABS*:0000000000000008 printStr
+             prog2.s:3      *ABS*:0000000000000009 readStr
+             prog2.s:4      *ABS*:0000000000000006 printInt
+             prog2.s:5      *ABS*:0000000000000007 printInt10
+             prog2.s:8      .data:0000000000000000 s1
+             prog2.s:10     .data:0000000000000016 s2
+             prog2.s:12     .data:0000000000000023 str1
+             prog2.s:14     .data:0000000000000038 str2
+             prog2.s:16     .data:000000000000004d str3
+             prog2.s:20     .text:0000000000000000 main
+             prog2.s:72     .text:00000000000000e4 strlen
+             prog2.s:84     .text:0000000000000108 strcpy
+             prog2.s:97     .text:000000000000012c strcat
+             prog2.s:119    .text:000000000000016c strcmp
+             prog2.s:74     .text:00000000000000e8 for_strlen
+             prog2.s:80     .text:0000000000000100 endfor_strlen
+             prog2.s:86     .text:000000000000010c for_strcpy
+             prog2.s:93     .text:0000000000000124 endfor_strcpy
+             prog2.s:103    .text:000000000000013c for_strcat
+             prog2.s:108    .text:0000000000000150 endfor_strcat
+             prog2.s:120    .text:000000000000016c for_strcmp
+             prog2.s:126    .text:0000000000000184 infor_strcmp
+             prog2.s:130    .text:0000000000000190 endfor_strcmp
+
+NO UNDEFINED SYMBOLS

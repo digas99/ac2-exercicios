@@ -1,0 +1,21 @@
+GAS LISTING prog3.s 			page 1
+
+
+DEFINED SYMBOLS
+             prog3.s:1      *ABS*:000000000000bf88 SFR_BASE_HI
+             prog3.s:2      *ABS*:0000000000006100 TRISE
+             prog3.s:3      *ABS*:0000000000006110 PORTE
+             prog3.s:4      *ABS*:0000000000006120 LATE
+             prog3.s:5      *ABS*:0000000000004e20 K
+             prog3.s:6      *ABS*:000000000000000c resetCoreTimer
+             prog3.s:7      *ABS*:000000000000000b readCoreTimer
+             prog3.s:8      *ABS*:0000000000000006 printInt
+             prog3.s:12     .data:0000000000000000 freq
+             prog3.s:15     .text:0000000000000000 main
+             prog3.s:35     .text:0000000000000040 while
+             prog3.s:50     .text:000000000000007c else1
+             prog3.s:52     .text:0000000000000080 endif1
+             prog3.s:67     .text:00000000000000a8 delay
+             prog3.s:70     .text:00000000000000b0 while_delay
+
+NO UNDEFINED SYMBOLS
