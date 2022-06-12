@@ -6,7 +6,7 @@ Todos os exercícios foram resolvidos em 2021/22.
 ### [aula1](/aula1)
 - [**parte1**](/aula1/parte1) - [EX1](aula1/parte1/EX1)
 - [**parte2**](/aula1/parte2) - [EX1](aula1/parte2/EX1)
-- [**extra**](/aula1/extra) - [EX1](aula1/extra/EX1) - [EX2](aula1/extra/EX2)
+- [**extra**](/aula1/EXTRA) - [EX1](aula1/EXTRA/EX1) - [EX2](aula1/EXTRA/EX2)
 - [AC2-P-Aula01.pdf](/aula1/AC2-P-Aula01.pdf)
 
 ### [aula2](/aula2)
@@ -54,10 +54,13 @@ Todos os exercícios foram resolvidos em 2021/22.
 - [**parte2**](/aula10/parte2) - [EX1](aula10/parte2/EX1)
 - [**parte3**](/aula10/parte3) - [EX1](aula10/parte3/EX1)
 - [**extra**](/aula10/EXTRA) - [EX1](aula10/EXTRA/EX1)
-- [AC2-P-Aula010.pdf](/aula10/AC2-P-Aula10.pdf)
+- [AC2-P-Aula10.pdf](/aula10/AC2-P-Aula10.pdf)
 
 ### [aula11](/aula11)
-- [AC2-P-Aula011.pdf](/aula11/AC2-P-Aula11.pdf)
+- [**parte1**](/aula11/parte1) - [EX1](aula11/parte1/EX1) - [EX2](aula11/parte1/EX2) - [EX3](aula11/parte1/EX3)
+- [**parte2**](/aula11/parte2) - [EX1](aula11/parte2/EX1) - [EX2](aula11/parte2/EX2) - [EX3](aula11/parte2/EX3)
+- [**parte3**](/aula11/parte3) - [EX1](aula11/parte3/EX1) - [EX2](aula11/parte3/EX2)
+- [AC2-P-Aula11.pdf](/aula11/AC2-P-Aula11.pdf)
 
 ### [extra](/extra)
 - [AC2_exerc_P-1_6.pdf](/extra/AC2_exerc_P-1_6.pdf)
