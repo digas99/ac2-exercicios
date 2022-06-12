@@ -58,7 +58,7 @@ int main(void) {
 
     // UART2 config
     configUart2(115200, 'N', 1);
-    // UART2 Rx interrupts
+    // UART2 interrupts
     IEC1bits.U2TXIE = 1;
     IEC1bits.U2RXIE = 1;
     IPC8bits.U2IP = 2;
