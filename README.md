@@ -29,7 +29,7 @@ Todos os exercícios foram resolvidos em 2021/22.
 - [AC2-P-Aula05.pdf](/aula5/AC2-P-Aula05.pdf)
 
 ### [aula6](/aula6)
-  - [EX1](aula6/EX1) - [EX2](aula6/EX2) - [EX3](aula6/EX3) - [EX4](aula6/EX4) - [EX5](aula6/EX5) - [EX6](aula6/EX6)
+- [EX1](aula6/EX1) - [EX2](aula6/EX2) - [EX3](aula6/EX3) - [EX4](aula6/EX4) - [EX5](aula6/EX5) - [EX6](aula6/EX6)
 - [41987_IEE_Osciloscopio.pdf](/aula6/AC2-P-Aula0641987_IEE_Osciloscopio.pdf)
 - [AC2-ADC.pdf](/aula6/AC2-ADC.pdf)
 - [AC2-P-Aula06.pdf](/aula6/AC2-P-Aula06.pdf)
@@ -69,3 +69,6 @@ Todos os exercícios foram resolvidos em 2021/22.
 ### [teste-pratico1](/teste-pratico1)
 - [**v1**](/teste-pratico1/v1) - [EX1](teste-pratico1/v1/EX1) - [EX3](teste-pratico1/v1/EX3)
 - [**v2**](/teste-pratico1/v2) - [EX1](teste-pratico1/v2/EX1) - [EX3](teste-pratico1/v2/EX3)
+
+### [teste-pratico2](/teste-pratico2)
+- [EX1](teste-pratico2/EX1) - [EX2](teste-pratico2/EX2) - [EX3](teste-pratico2/EX3)
